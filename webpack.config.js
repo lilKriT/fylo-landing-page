@@ -25,25 +25,8 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: [
-          "style-loader",
-          "css-loader",
-          {
-            loader: "postcss-loader",
-            options: {
-              postCssOptions: {
-                plugins: [
-                  [
-                    "postcss-preset-env",
-                    {
-                      // Options here
-                    },
-                  ],
-                ],
-              },
-            },
-          },
-        ],
+        include: path.resolve(__dirname, "src"),
+        use: ["style-loader", "css-loader", "postcss-loader"],
       },
     ],
   },
