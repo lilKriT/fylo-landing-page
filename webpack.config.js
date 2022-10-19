@@ -20,7 +20,6 @@ module.exports = {
     hot: true,
     compress: true,
     historyApiFallback: true,
-    watchFiles: ["./public/*"],
   },
   module: {
     rules: [
@@ -47,4 +46,5 @@ module.exports = {
       favicon: "src/images/favicon-32x32.png",
     }),
   ],
+  target: ["web"],
 };
