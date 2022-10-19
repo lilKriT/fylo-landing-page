@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply font-raleway;
+    @apply font-opensans;
     /* background-image: url("../images/illustration-1.svg"); */
   }
 }
