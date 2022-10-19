@@ -4,7 +4,20 @@
 
 /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700"); */
 
-body {
-  @apply font-raleway;
-  /* background-image: url("../images/illustration-1.svg"); */
+@layer base {
+  * {
+    outline: 1px solid red;
+  }
+
+  body {
+    @apply font-raleway;
+    /* background-image: url("../images/illustration-1.svg"); */
+  }
+}
+
+@layer components {
+  .navLink {
+    @apply px-4 py-2 block;
+    @apply hover:scale-110 duration-150 ease-in-out;
+  }
 }
