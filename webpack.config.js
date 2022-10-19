@@ -28,6 +28,10 @@ module.exports = {
         include: path.resolve(__dirname, "src"),
         use: ["style-loader", "css-loader", "postcss-loader"],
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
@@ -35,6 +39,7 @@ module.exports = {
       title: "Fylo Landing Page",
       filename: "index.html",
       template: "src/template.html",
+      favicon: "src/images/favicon-32x32.png",
     }),
   ],
 };
