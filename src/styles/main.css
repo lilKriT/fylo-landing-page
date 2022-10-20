@@ -21,8 +21,12 @@
     @apply hover:scale-110 duration-150 ease-in-out;
   }
 
+  .footerColumn {
+    @apply flex-grow;
+  }
   .footerLink {
     @apply block p-1;
+    @apply hover:text-desaturatedBlue;
   }
 }
 
