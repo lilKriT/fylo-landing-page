@@ -21,6 +21,10 @@
     @apply hover:scale-110 duration-150 ease-in-out;
   }
 
+  .primaryBtn {
+    @apply bg-brightBlue text-white rounded px-10 py-2 hover:bg-desaturatedBlue;
+  }
+
   .footerColumn {
     @apply flex-grow;
   }
