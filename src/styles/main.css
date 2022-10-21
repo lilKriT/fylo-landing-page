@@ -29,6 +29,12 @@
     @apply inline-block p-1 mb-1;
     @apply hover:text-desaturatedBlue duration-150 ease-in-out;
   }
+
+  .socialLink {
+    @apply w-8 h-8;
+    @apply fill-lightGrayishBlue duration-150 ease-in-out;
+    @apply hover:fill-desaturatedBlue;
+  }
 }
 
 @layer utilities {
