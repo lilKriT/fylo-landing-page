@@ -24,8 +24,9 @@
   .footerColumn {
     @apply flex-grow;
   }
+
   .footerLink {
-    @apply inline-block p-1;
+    @apply inline-block p-1 mb-1;
     @apply hover:text-desaturatedBlue duration-150 ease-in-out;
   }
 }
