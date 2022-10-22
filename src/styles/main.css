@@ -22,7 +22,7 @@
   }
 
   .primaryBtn {
-    @apply bg-brightBlue text-white rounded px-10 py-2 hover:bg-desaturatedBlue;
+    @apply bg-brightBlue text-white rounded px-10 py-2 hover:brightness-150 shadow-lg duration-150 ease-in-out;
   }
 
   .footerColumn {
