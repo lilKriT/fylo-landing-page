@@ -21,6 +21,10 @@
     @apply hover:scale-110 duration-150 ease-in-out;
   }
 
+  .emailInput {
+    @apply border border-black rounded p-2 shadow-lg;
+  }
+
   .primaryBtn {
     @apply bg-brightBlue text-white rounded px-10 py-2 hover:brightness-150 shadow-lg duration-150 ease-in-out;
   }
@@ -43,6 +47,10 @@
 
   .socialLink svg {
     @apply w-4 h-4;
+  }
+
+  section.hero {
+    background: url("../images/bg-curve-desktop.svg") bottom no-repeat;
   }
 }
 
