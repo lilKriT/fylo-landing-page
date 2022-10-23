@@ -50,7 +50,7 @@
   }
 
   section.hero {
-    background: url("../images/bg-curve-desktop.svg") bottom no-repeat;
+    background: url("../images/bg-curve-desktop.svg") bottom / 100% no-repeat;
   }
 }
 
