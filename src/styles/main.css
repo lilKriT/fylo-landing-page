@@ -35,9 +35,14 @@
   }
 
   .socialLink {
-    @apply w-8 h-8;
+    @apply w-8 h-8 block border-2 border-white rounded-full;
     @apply fill-lightGrayishBlue duration-150 ease-in-out;
-    @apply hover:fill-desaturatedBlue;
+    @apply hover:fill-desaturatedBlue hover:border-desaturatedBlue;
+    @apply flex justify-center items-center;
+  }
+
+  .socialLink svg {
+    @apply w-4 h-4;
   }
 }
 
