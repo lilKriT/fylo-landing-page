@@ -19,7 +19,9 @@
     <header
       class="flex justify-center sticky top-0 backdrop-blur-sm shadow-md font-raleway"
     >
+      <!-- Navigation -->
       <nav class="flex justify-between w-4/5 max-w-6xl mt-12 mb-4">
+        <!-- Logo -->
         <a href="#">
           <img
             src="images/logo.svg"
@@ -28,6 +30,7 @@
             class="hover:scale-110 duration-150 ease-in-out;"
           />
         </a>
+        <!-- Menu items -->
         <menu class="flex items-center">
           <li><a href="#" class="navLink">Features</a></li>
           <li><a href="#" class="navLink">Team</a></li>
@@ -39,6 +42,7 @@
     <!-- Hero -->
     <section class="flex justify-center hero">
       <div class="container flex mt-32 mb-64">
+        <!-- Left column -->
         <div class="w-1/2 flex flex-col justify-center gap-4">
           <h1 class="font-raleway font-bold text-4xl text-veryDarkBlue">
             All your files in one secure location, accessible anywhere.
@@ -48,15 +52,20 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
+
+          <!-- First subscription Form -->
           <form action="#" id="heroForm">
             <input
               type="text"
               placeholder="Enter your email..."
               class="w-3/5 emailInput"
+              name="email"
             />
             <button type="submit" class="primaryBtn">Get Started</button>
           </form>
         </div>
+
+        <!-- Right Column -->
         <div class="w-1/2">
           <img src="./images/illustration-1.svg" alt="" />
         </div>
@@ -66,6 +75,7 @@
     <!-- Features -->
     <section class="flex justify-center bg-lightGrayishBlue">
       <div class="container flex mt-16 mb-24">
+        <!-- Left column -->
         <div class="flex flex-col gap-4 items-start">
           <h2 class="text-4xl font-bold font-raleway">
             Stay productive, wherever you are
@@ -78,12 +88,16 @@
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required!
           </p>
+
+          <!-- How Fylo Works -->
           <a
             href="#"
             class="inline-block text-moderateCyan border-b-2 border-moderateCyan p-1 hover:brightness-150 duration-150 ease-in-out"
             >See how Fylo works
             <img src="./images/icon-arrow.svg" alt="" class="inline-block"
           /></a>
+
+          <!-- Testimonial -->
           <figure
             class="bg-white max-w-sm rounded py-6 px-8 mt-4 flex flex-col gap-4"
           >
@@ -113,6 +127,7 @@
     <!-- CTA -->
     <section class="flex justify-center bg-desaturatedBlue text-white">
       <div class="container flex justify-between mt-20 mb-16">
+        <!-- Left Column -->
         <div class="w-2/5 flex flex-col gap-8">
           <h2 class="text-3xl font-bold">Get early access today</h2>
           <p>
@@ -121,6 +136,8 @@
             would be happy to help you.
           </p>
         </div>
+
+        <!-- CTA Subscribe Form -->
         <form
           action="#"
           class="w-2/5 flex flex-col items-start gap-4"
@@ -130,6 +147,7 @@
             type="text"
             placeholder="email@example.com"
             class="w-full emailInput"
+            name="email"
           />
           <button type="submit" class="primaryBtn">Get Started For Free</button>
         </form>
@@ -147,6 +165,7 @@
             alt="Fylo Logo"
             class="hover:scale-110 duration-150 ease-in-out;"
         /></a>
+
         <!-- Second Row -->
         <div class="flex justify-between mt-6">
           <!-- First Column -->
