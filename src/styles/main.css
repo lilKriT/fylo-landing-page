@@ -29,6 +29,14 @@
     @apply bg-brightBlue text-white rounded px-10 py-2 hover:brightness-150 shadow-lg duration-150 ease-in-out;
   }
 
+  .validationError {
+    @apply text-red-600 text-sm my-2 hidden;
+  }
+
+  .validationError.active {
+    @apply block;
+  }
+
   .footerColumn {
     @apply flex-grow;
   }
