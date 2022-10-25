@@ -43,9 +43,11 @@
 
     <!-- Hero -->
     <section class="flex justify-center hero">
-      <div class="container flex mt-32 mb-64">
+      <div
+        class="container flex flex-col lg:flex-row mt-32 mb-64 text-center lg:text-left"
+      >
         <!-- Left column -->
-        <div class="w-1/2 flex flex-col justify-center gap-4">
+        <div class="lg:w-1/2 flex flex-col justify-center gap-4">
           <h1 class="font-raleway font-bold text-4xl text-veryDarkBlue">
             All your files in one secure location, accessible anywhere.
           </h1>
@@ -60,11 +62,13 @@
             <input
               type="text"
               placeholder="Enter your email..."
-              class="w-3/5 emailInput"
+              class="w-full lg:w-3/5 emailInput my-2"
               name="email"
             />
             <p class="validationError absolute my-4">Please check your email</p>
-            <button type="submit" class="primaryBtn">Get Started</button>
+            <button type="submit" class="primaryBtn w-full lg:w-fit">
+              Get Started
+            </button>
           </form>
         </div>
 
