@@ -16,6 +16,11 @@
 }
 
 @layer components {
+  .fyloLogo {
+    width: clamp(10px, 20%, 200px);
+    @apply flex items-center;
+  }
+
   .navLink {
     @apply px-4 py-2 block;
     @apply hover:scale-110 duration-150 ease-in-out;
