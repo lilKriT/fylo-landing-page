@@ -30,7 +30,7 @@
   }
 
   .validationError {
-    @apply text-red-600 text-sm my-2 hidden;
+    @apply text-red-600 text-sm;
   }
 
   .validationError.active {

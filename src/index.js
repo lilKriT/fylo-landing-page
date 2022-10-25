@@ -11,14 +11,17 @@ const CTAForm = document.querySelector("#CTAForm");
 
 const validate = (e) => {
   e.preventDefault();
-  const currentEmail = e.target.elements["email"].value;
+  const emailField = e.target.elements["email"];
+  const currentEmail = emailField.value;
   console.log("Validating: " + currentEmail);
 
   if (isValid(currentEmail, emailRegex)) {
     // e.target.submit();
     console.log("Pass");
+    emailField.nextElementSibling.classList.remove("active");
   } else {
     console.log("Fail");
+    emailField.nextElementSibling.classList.add("active");
   }
 };
 
