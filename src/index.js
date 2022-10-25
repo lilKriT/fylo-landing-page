@@ -16,7 +16,7 @@ const validate = (e) => {
   console.log("Validating: " + currentEmail);
 
   if (isValid(currentEmail, emailRegex)) {
-    // e.target.submit();
+    e.target.submit();
     console.log("Pass");
     emailField.nextElementSibling.classList.remove("active");
   } else {
@@ -26,6 +26,7 @@ const validate = (e) => {
 };
 
 heroForm.addEventListener("submit", (e) => validate(e));
+CTAForm.addEventListener("submit", (e) => validate(e));
 
 const isValid = (s, regex) => {
   return String(s).toLowerCase().match(regex);
