@@ -31,3 +31,10 @@ CTAForm.addEventListener("submit", (e) => validate(e));
 const isValid = (s, regex) => {
   return String(s).toLowerCase().match(regex);
 };
+
+const unhideWebsite = () => {
+  const body = document.querySelector("body");
+  body.style = "";
+};
+// document.addEventListener("DOMContentLoaded", unhideWebsite);
+unhideWebsite();
